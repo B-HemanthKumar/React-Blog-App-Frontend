@@ -1,0 +1,65 @@
+.stories{
+    cursor: pointer;
+}
+
+.storiesinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 30px;
+    width: 400px;
+}
+
+.storiestitle{
+    margin-top: 10px;
+    font: 40px/50px  Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.storiesdes{
+    margin-top: 10px;
+    text-align: left;
+    font: 15px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+    display: -webkit-box ;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.storiescatdate{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.storiescat{
+    font: 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+
+.storiesdate{
+    font: normal normal medium 17px/23px Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.24;
+}
+
+@media (max-width:800px) {
+    .storiesinfo{
+        margin-left: 10px;
+        width: 300px;
+
+    }
+    .stories{
+        width: 300px;
+    }
+}

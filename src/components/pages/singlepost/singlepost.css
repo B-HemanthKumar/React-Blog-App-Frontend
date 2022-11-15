@@ -1,0 +1,282 @@
+
+.blog{
+    flex-wrap: wrap;
+    margin: 20px 320px 0px 350px;
+    cursor: pointer;
+
+}
+
+.sptitle{
+
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    cursor: pointer;
+    position: sticky;   
+}
+
+.spthe{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(270deg);
+    font: 20px Montserrat;
+    margin-left: 100px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.spsiren{
+    font: normal normal bold 71px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;   
+    font-size: 40px;
+    margin-left: 4px;
+}
+
+.spbtn{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-left: 60%;
+    background-color: #FFFFFF;
+    color: #03A87C;
+    border-color: #03A87C;
+    cursor: pointer;
+}
+
+.spptitle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font: normal normal normal 40px/50px Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.adetails{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ainfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 05px; 
+}
+
+.aname{
+    text-align: left;
+    font: normal normal normal 18px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.spd{
+    text-align: left;
+    font: normal normal normal 14px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+}
+
+.socialmedia{
+    margin-top: 20px;
+    margin-left: 46%;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.clap{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 8%;
+}
+
+.clapimg{
+    margin-right: 10px;
+}
+
+.shareimg{
+    margin-right: 10px;
+}
+
+.share{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 75%;
+    left: 8%;
+}
+
+.reactimg{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.spdes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    width: 680px;
+    text-align: left;
+    font: normal normal normal 21px/32px Georgia;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.spcat{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.spcatlist{
+    margin-top: 10px;
+    border: 0px solid #a2a2a2;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.clap1{
+    align-items: center;
+    margin-top:20px ;
+    margin-bottom: 20px; 
+}
+
+.clapimg1{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px; 
+}
+
+.adetails1{
+    display: flex;
+    border-top: 0.5px solid #A2A2A2;
+    border-bottom:0.5px solid #A2A2A2;
+}
+
+.alogo1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.and{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    row-gap:10px ;
+    flex-direction: column;
+}
+
+.awb{
+    text-align: left;
+    font: normal normal normal 14px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+}
+
+.more2{
+    display: flex;
+}
+
+
+@media (max-width:800px)
+{
+    .singlepost{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .adetails{
+        width: 375px;
+    }
+
+    .clap{
+        display: none;
+    }
+
+    .share{
+        display: none;
+    }
+
+    .spbtn{
+        margin-left: 30%;
+    }
+
+    .catclap1{
+        width: 375px;
+    }
+
+    .reactimg1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+    }
+
+    .spdes{
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+    }
+    
+    .blog{
+        margin:0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sptitle{
+        width: 375px;    
+    }
+
+    .spthe{
+        margin-left: 0px;
+    }
+    
+    .spptitle{
+        width: 375px;
+    }
+
+    .adetails1{
+        width: 375px;
+        border-bottom: none;
+    }
+
+    .adetails2{
+        width: 375px;
+        margin-bottom: 0px;
+        display: none;
+    }
+
+    .more{
+       margin: 0px;
+    }
+    
+    .more0{
+        width: 375px;
+    }
+
+    .more2{
+        flex-direction: column;
+    }
+}

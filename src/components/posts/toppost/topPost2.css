@@ -1,0 +1,58 @@
+
+.topPost2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cardio{
+    margin-top: 10px;
+    width:100px;
+    height: 80px;
+    box-shadow: 0px 5px 10px #0000001A;
+}
+
+.cardioinfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 10px;   
+}
+
+.cardiodes{
+    width: 150px;
+    margin-top: 10px;
+    font: normal normal normal 13px/15px Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+    display: -webkit-box ;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.cardiocatdate{
+    display: flex;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.cardiocat{
+    text-align: left;
+    font: normal normal medium 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+
+.cardiodate{
+    text-align: left;
+    font: normal normal medium 17px/23px Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.24;
+}

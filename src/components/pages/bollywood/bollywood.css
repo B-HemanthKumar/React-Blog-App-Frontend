@@ -1,0 +1,128 @@
+.bollywood{
+    border-top:2px solid #f0f0f0 ;
+}
+
+.bollywood1{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.btitle{
+    font: 25px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 10px;
+    margin-left: 100px; 
+}
+
+.bhr{
+    font-size:small;
+    color: #F08080;
+    opacity: 1;
+    height: 25px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.barticles{
+    flex: 1.8;
+    margin-left: 100px;
+}
+
+.btoppost1{
+    flex: 3;
+    margin-top: -10px;
+    margin-left: -1000px;
+    cursor: pointer;
+}
+
+.bsidebar{
+    display: flex;
+    flex: 3;
+    position: absolute;
+    top: 740px;
+    left: 998px;
+    width: 307px;
+    height: 820px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    margin-right: 20px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.badd{
+    font-size: 30px;
+    margin-top: 410px;
+    margin-left: 60px;
+}
+
+.arrowload1{
+    position: relative;
+    top: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.loadmore1{
+    font-size: 12px/15px;
+    color: #707070;
+}
+
+
+@media (max-width:800px)
+{
+    .btitle{
+        margin-left: 30px;
+    }
+
+    .bhr{
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .barticles{
+        margin-left: 30px;
+    }
+
+    .bp1info{
+        margin-left: 10px;
+        align-items: flex-start;
+        width: 150px;
+    }
+
+    .ahr{
+        width: 80%;
+    }
+    .ii{
+        display: flex;
+        flex-wrap: nowrap;
+        width:375px;
+    }
+
+    p{
+        margin-left: 05px;
+    }
+
+    .bp1des{
+        width: 150px;
+        margin-left: 05px;
+    }
+
+    .arrowload1{
+        margin-left: 30px;
+    }
+
+    .bsidebar{
+        display: none;
+    }
+
+    .btoppost1{
+        margin: 0px;
+        position: absolute;
+        top: 230%;
+    }   
+}

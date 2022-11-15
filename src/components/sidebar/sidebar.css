@@ -1,0 +1,16 @@
+.sidebar{
+    flex: 3;
+    width: 500px;
+    height: 650px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    margin-right: 20px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#add{
+    font-size: 30px;
+    margin-top: 270px;
+    margin-left: 50px;
+}

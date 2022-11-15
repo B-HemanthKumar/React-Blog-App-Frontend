@@ -1,0 +1,196 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.latest{
+    font: 25px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 25px; 
+    
+}
+
+.as{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hr{
+    font-size:small;
+    color: #F08080;
+    opacity: 1;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+   
+}
+
+.arrowload{
+    position:absolute; 
+    top: 306%;  /* microsoft edge */
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.loadmore{
+    font:12px Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+}
+
+p{
+    margin-left: 10px;
+}
+
+.bb{
+    position:absolute ;
+    top:310%;
+    cursor: pointer;
+}
+
+#bbtitle{
+    position: relative;
+    font-size: 60px;
+    color: #ffffff;
+    left: 200px;
+    top: 200px;
+}
+
+#bbcat{
+    position: relative;
+    font-size: 12px;
+    color: #ffffff;
+    left: 210px;
+    top: 200px;
+}
+
+.bbimg{
+    width:145%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px #0000001A;
+}
+
+.ls{
+    margin: 20px 80px 20px 80px;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    position: absolute;
+    top: 390%;
+    cursor: pointer;
+}
+
+
+.latest1{
+    font: 25px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 25px;   
+}
+
+.latest1hr{
+    font-size:small;
+    color: #F08080;
+    opacity: 1;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.storiespost{
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.arrowview{
+    display: flex;
+    position: absolute;
+    top: 447%;
+    left: 140px;
+    cursor: pointer; 
+}
+
+.viewmore{
+    font:12px Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+}
+
+.right_arrow{
+    margin-left: 10px;
+}
+
+
+@media(max-width:800px)
+{
+    .home{
+        margin: 0px;
+    }
+
+    .latest{
+        margin-left: 30px;
+        width: 375px;
+    }
+    
+    .hr{
+        width: 375px;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .arrowload{
+        position: absolute;
+        top: 433%;
+        left:-90px;
+        margin-bottom: 0px;
+    }
+    
+    .ls{
+        position: relative;
+        top: 40px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .bb{
+        display: none;
+    }
+
+    .latest1,.latest1hr{
+        margin-left: 10px;
+    }
+
+    .storiespost{
+        display: block;
+        margin-left: 0px;
+        width: 300px; 
+    }
+
+    .storiescatdate{
+        margin-top: 20px;
+    }
+
+    hr{
+        visibility: hidden;
+    }  
+
+    .arrowview{
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+}

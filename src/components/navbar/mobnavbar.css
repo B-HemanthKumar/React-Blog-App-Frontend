@@ -1,0 +1,38 @@
+.mobnavbar{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-top: 1px solid #000000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.mobnavlist{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.a1{
+    text-decoration: none;
+    color: #000000;
+    opacity: 1;
+    font: 17px/30px Montserrat;
+    letter-spacing: 0px;
+    cursor:pointer
+
+}
+
+
+@media (max-width:800px)
+{
+    .a1{
+        margin-left: 0px;
+    }
+}

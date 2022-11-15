@@ -1,0 +1,26 @@
+.mobnav{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    height: 30px; 
+}
+
+
+@media (max-width:800px)
+{
+
+    .mobnav{
+        display: block;
+    }
+
+    .hamburger{
+        position: fixed;
+        top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:215px ;
+        cursor:pointer;   
+    }
+}
