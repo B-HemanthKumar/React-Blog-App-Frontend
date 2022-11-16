@@ -4,7 +4,8 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-    <div className="header">
+    <div className="header" >
+     
        <div className="text">
           <p className="blogtitle">THE DELL THAT INSPIRES</p>
           <p className="blogcatdate">Technology / 20 oct 2022</p>

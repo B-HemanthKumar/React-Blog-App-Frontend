@@ -1,13 +1,14 @@
 import LatestPost from "./LatestPost"
 import "./latest.css"
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const Latest = () => {
   return (
     <div className="latest">
-         <LatestPost />
-         <LatestPost />
-         <LatestPost />
+      < Link to="/SinglePost"> <LatestPost /> </Link>
+      < Link to="/SinglePost"> <LatestPost /> </Link>
+      < Link to="/SinglePost"> <LatestPost /> </Link>
     </div>
   )
 }

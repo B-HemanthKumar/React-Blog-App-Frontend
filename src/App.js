@@ -4,21 +4,17 @@ import SinglePost from "./components/pages/singlepost/SinglePost";
 import React from 'react';
 import { BrowserRouter, Route ,Routes} from "react-router-dom"
 
+
 function App() {
   return (
-  <>
-    <Home />
-     {/* <Bollywood /> */}
-     {/* <SinglePost /> */}
-
-    {/* <BrowserRouter>
-    <Routes>
-     <Route path="/" component={Home} />
-     <Route path="/bollywood" component={Bollywood} />
-     <Route path="/singlepost" component={SinglePost} />
-    </Routes>
-    </BrowserRouter> */}
-  </>
+    <BrowserRouter>
+      <Routes> 
+        <Route path="/" element={< Home />} />
+        <Route path="/bollywood" element={< Bollywood />} />
+        <Route path="/singlepost" element={< SinglePost />} />
+      </Routes>
+    </BrowserRouter>
+  
   ) ;
 }
 

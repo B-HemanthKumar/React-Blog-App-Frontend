@@ -7,6 +7,7 @@ import TopPost1 from "../../posts/toppost/TopPost1"
 import Sidebar from "../../sidebar/Sidebar"
 import Stories from "../../posts/stories/Stories"
 import "./home.css"
+import { Link } from "react-router-dom"
 import React from 'react'
 
 const Home = () => {
@@ -14,26 +15,26 @@ const Home = () => {
     <>
      < Title />
      < NavBar />
-     < Header />
+     < Link to="/singlepost"> < Header /> </Link>
       
       <div className="home">
         <div className="latest">The Latest</div>
         <div className="hr">_______</div>
-        < Latest />
+        < Link to="/singlepost"> < Latest /> </Link>
         
         <div className="latest">Latest Articles</div>
         <div className="hr">_______</div> 
         
         <div className="as">
           <div className='articles'>
-            < Articles />
-            < Articles />
-            < Articles />
-            < Articles />
+            < Link to="/singlepost"> < Articles /> </Link>
+            < Link to="/singlepost"> < Articles /> </Link>
+            < Link to="/singlepost"> < Articles /> </Link>
+            < Link to="/singlepost"> < Articles /> </Link>
           </div>
-          < Sidebar />
+          < Sidebar /> 
         </div>
-        < TopPost1 />
+        < Link to="/singlepost"> < TopPost1 /> </Link>
       </div> 
       
       <div className="arrowload">
@@ -42,6 +43,7 @@ const Home = () => {
       </div>
       
       <div className="bb">
+        
         <p id="bbtitle">crossfit</p>
         <p id="bbcat" >Fitness / 02/10/2022</p> 
         <img className="bbimg" src="assests/bb2.jpg" alt="" /> 
@@ -52,9 +54,9 @@ const Home = () => {
         <div className="latest1hr">_______</div>
         <hr></hr>
         <div className="storiespost" >
-          <div className="sp1" >< Stories /></div>
-          <div className="sp1" >< Stories /></div>
-          <div className="sp2" >< Stories /></div>
+          <div className="sp1" > < Link to="/SinglePost"> < Stories /> </Link> </div>
+          <div className="sp1" > < Link to="/SinglePost"> < Stories /> </Link> </div>
+          <div className="sp1" > < Link to="/SinglePost"> < Stories /> </Link> </div>
         </div>
           
         <hr></hr>
@@ -64,7 +66,7 @@ const Home = () => {
       <div className="arrowview">
         <p className="viewmore">VIEW MORE</p> 
         < img className="right_arrow" src="assests/right_arrow.svg" alt="" />
-        </div>
+      </div>
            
     </>
   )

@@ -6,6 +6,10 @@
     margin-right: 80px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .latest{
     font: 25px/25px Montserrat;
     letter-spacing: 0px;
@@ -18,6 +22,7 @@
 .as{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .hr{

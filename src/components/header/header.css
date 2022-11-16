@@ -6,6 +6,10 @@
     margin-top: 20px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .text{
     position:absolute;
     top: 70%;

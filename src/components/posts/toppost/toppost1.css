@@ -1,6 +1,6 @@
 .toppost1{
     position: relative;
-    top: -80px;
+    top: -90px;
     left:75%;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,9 @@
     opacity: 1;
 }
 
+a{
+    text-decoration: none;
+}
 
 .tp1title{
     font-size: 25px;

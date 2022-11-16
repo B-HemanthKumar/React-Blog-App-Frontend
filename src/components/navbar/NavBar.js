@@ -28,17 +28,6 @@ const NavBar = () => {
       <a className="a" href="/nature">nature</a> </li>  
 
     </ul>
-//  <div className="navbar">
-//         <ul className="list">
-//             <li className="listitem">Home</li>
-//             <li className="listitem">Bollywood</li>
-//             <li className="listitem">Technology</li>
-//             <li className="listitem">Hollywood</li>
-//             <li className="listitem">Fitness</li>
-//             <li className="listitem">Food</li>
-//             <li className="listitem">Nature</li>
-//         </ul> 
-//     </div>
   )
 }
 

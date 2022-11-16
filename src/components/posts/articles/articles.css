@@ -6,7 +6,11 @@
     flex-wrap: wrap;  
 }
 
- .ahr{
+a{
+    text-decoration: none;
+}
+
+.ahr{
     color: #F0F0F0 ;
     opacity: 1;
 } 
@@ -15,6 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .bp1{
@@ -23,6 +28,7 @@
     height: 150px;
     margin-bottom: 20px;
     box-shadow: 0px 5px 10px #0000001A;
+    text-decoration: none;
 }
 
 .bp1info{

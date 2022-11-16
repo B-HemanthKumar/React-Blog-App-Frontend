@@ -2,10 +2,11 @@ import "./toppost1.css"
 import TopPost2 from "./TopPost2"
 import React from 'react'
 
+
 const TopPost1 = () => {
   return (
    
-    <div className="toppost1">
+    <div className="toppost1"> 
        
       <div className="tp1title">Top Posts</div>
       <div className="tp1hr">_______</div> 
@@ -23,10 +24,11 @@ const TopPost1 = () => {
         </div>
         <hr></hr>
       </div>
-  
+
+      < TopPost2 /> 
+      < TopPost2 /> 
       < TopPost2 />
-      < TopPost2 />
-      < TopPost2 />
+      
     </div>
   )
 }
