@@ -7,13 +7,13 @@ import { BrowserRouter, Route ,Routes} from "react-router-dom"
 
 function App() {
   return (
-    // <BrowserRouter >
+    <BrowserRouter >
       <Routes> 
         <Route path="/" element={< Home />} />
         <Route path="/bollywood" element={< Bollywood />} />
         <Route path="/singlepost" element={< SinglePost />} />
       </Routes>
-    // </BrowserRouter>
+    </BrowserRouter>
   
   ) ;
 }
