@@ -8,22 +8,25 @@ const MobNavBar = () => {
 
     
 <li className="navlist">
-       <Link className="navbar" to="/">Home</Link> </li>
+       <Link className="mobnavbar" to="/">Home</Link> </li>
 
       <li className="navlist">
-      <Link className="navbar" to="/bollywood">bollywood</Link>  </li>
+      <Link className="mobnavbar" to="/bollywood">bollywood</Link>  </li>
 
       <li className="navlist">
-      <Link className="navbar" to="/hollywood">hollywood</Link>  </li>
+      <Link className="mobnavbar" to="/hollywood">hollywood</Link>  </li>
+      
+      <li className="navlist">
+      <Link className="mobnavbar" to="/technology">Technology</Link>  </li>
 
       <li className="navlist">
-      <Link className="navbar" to="/">Home</Link>  </li>
+      <Link className="mobnavbar" to="/food">Food</Link>  </li>
 
       <li className="navlist">
-      <Link className="navbar"  to="/">Home</Link>  </li>
+      <Link className="mobnavbar"  to="/nature">Nature</Link>  </li>
 
       <li className="navlist">
-      <Link className="navbar"  to="/">Home</Link>  </li>
+      <Link className="mobnavbar"  to="/fitness">Fitness</Link>  </li>
 
 
     </ul> 

@@ -5,27 +5,26 @@ import React from 'react'
 const NavBar = () => {
   return (
     <ul className="navbar">
+<li className="navlist">
+       <Link className="navbar" to="/">Home</Link> </li>
 
       <li className="navlist">
-       <a className="a" href="/">Home</a> </li>
+      <Link className="navbar" to="/bollywood">bollywood</Link>  </li>
 
       <li className="navlist">
-      <a className="a" href="/bollywood">Bollywood</a> </li>
+      <Link className="navbar" to="/hollywood">hollywood</Link>  </li>
+      
+      <li className="navlist">
+      <Link className="navbar" to="/technology">Technology</Link>  </li>
 
       <li className="navlist">
-      <a  className="a" href="/technology">Technology</a> </li>
+      <Link className="navbar" to="/food">Food</Link>  </li>
 
       <li className="navlist">
-      <a className="a" href="/hollywood">Hollywood</a> </li>
+      <Link className="navbar"  to="/nature">Nature</Link>  </li>
 
       <li className="navlist">
-      <a className="a" href="/fitness">Fitness</a> </li>
-
-      <li className="navlist">
-      <a className="a" href="/food">Food</a> </li>
-
-      <li className="navlist">
-      <a className="a" href="/nature">Nature</a> </li>  
+      <Link className="mobnavbar"  to="/fitness">Fitness</Link>  </li>
 
     </ul>
   )
