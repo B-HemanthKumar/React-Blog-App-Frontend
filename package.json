@@ -1,7 +1,6 @@
 {
   "name": "blog-website",
   "version": "0.1.0",
-  "homepage": "https://B-HemanthKumar.github.io/React-Blog-Website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
