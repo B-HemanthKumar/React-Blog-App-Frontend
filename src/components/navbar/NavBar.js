@@ -25,7 +25,7 @@ const NavBar = () => {
       <Link className="navbar"  to="/nature">Nature</Link>  </li>
 
       <li className="navlist">
-      <Link className="mobnavbar"  to="/fitness">Fitness</Link>  </li>
+      <Link className="navbar"  to="/fitness">Fitness</Link>  </li>
 
     </ul>
   )
