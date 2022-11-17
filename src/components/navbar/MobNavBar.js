@@ -1,32 +1,32 @@
 import "./mobnavbar.css"
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const MobNavBar = () => {
   return (
     <ul className="mobnavbar">
 
-      <li className="mobnavlist">
-      <a className="a1" href="/">Home</a> </li>
+    
+<li className="navlist">
+       <Link className="navbar" to="/">Home</Link> </li>
 
-      <li className="mobnavlist">
-      <a className="a1" href="/bollywood">Bollywood</a> </li>
+      <li className="navlist">
+      <Link className="navbar" to="/bollywood">bollywood</Link>  </li>
 
-      <li className="mobnavlist">
-      <a className="a1" href="/technology">Technology</a> </li>
+      <li className="navlist">
+      <Link className="navbar" to="/hollywood">hollywood</Link>  </li>
 
-      <li className="mobnavlist">
-      <a className="a1" href="/hollywood">Hollywood</a> </li>
+      <li className="navlist">
+      <Link className="navbar" to="/">Home</Link>  </li>
 
-      <li className="mobnavlist">
-      <a className="a1" href="/fitness">Fitness</a> </li>
+      <li className="navlist">
+      <Link className="navbar"  to="/">Home</Link>  </li>
 
-      <li className="mobnavlist">
-      <a className="a1" href="/food">Food</a> </li>
+      <li className="navlist">
+      <Link className="navbar"  to="/">Home</Link>  </li>
 
-      <li className="mobnavlist">
-      <a className="a1" href="/nature">nature</a> </li>  
 
-    </ul>
+    </ul> 
     
   )
 }
