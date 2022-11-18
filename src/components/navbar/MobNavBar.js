@@ -10,10 +10,10 @@ const MobNavBar = () => {
        <Link className="a1" to="/">Home</Link> </li>
 
       <li className="mobnavlist">
-      <Link className="a1" to="/bollywood">bollywood</Link>  </li>
+      <Link className="a1" to="/bollywood">Bollywood</Link>  </li>
 
       <li className="mobnavlist">
-      <Link className="a1" to="/hollywood">hollywood</Link>  </li>
+      <Link className="a1" to="/hollywood">Hollywood</Link>  </li>
       
       <li className="mobnavlist">
       <Link className="a1" to="/technology">Technology</Link>  </li>
