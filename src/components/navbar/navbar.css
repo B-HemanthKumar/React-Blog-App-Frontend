@@ -15,8 +15,7 @@
 .navlist{
     flex-wrap: wrap;
     letter-spacing: 0px;
-    cursor:pointer;
-    
+    cursor:pointer;   
 }
 
 .a{
